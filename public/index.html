@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Web server</title>
+</head>
+<body>
+	<form>
+		<input type="text" name="var1" placeholder="var1">
+		<input type="text" name="var2" placeholder="var2">
+		<br>
+		<input type="submit" formaction="/calc/add" value="+">
+	</form>
+	<script type="text/javascript">
+		fetch("http://localhost:3000//calc/add")
+	</script>
+</body>
+</html>
